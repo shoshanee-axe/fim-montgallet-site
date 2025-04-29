@@ -1,0 +1,71 @@
+<!DOCTYPE html><html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fédération Informatique Montgallet (FIM)</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background-color: #1e1e1e; color: white; padding: 20px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    .hero { background-color: #3a3a3a; color: white; padding: 60px 20px; text-align: center; }
+    .hero h1 { font-size: 2.5em; }
+    .section { padding: 40px 20px; max-width: 1000px; margin: auto; }
+    .section h2 { color: #1e1e1e; }
+    .services, .membres { display: flex; flex-wrap: wrap; justify-content: space-around; }
+    .card { width: 250px; margin: 10px; padding: 20px; background: #f2f2f2; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    form input, form textarea { width: 100%; padding: 10px; margin: 5px 0; }
+    footer { background: #1e1e1e; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Fédération Informatique Montgallet</h1>
+    <nav>
+      <a href="#presentation">Accueil</a>
+      <a href="#services">Nos Services</a>
+      <a href="#membres">Membres</a>
+      <a href="#adhesion">Nous Rejoindre</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>  <div class="hero">
+    <h1>Professionnels unis pour un numérique local, éthique et performant</h1>
+    <p><a href="#adhesion" style="color:white; text-decoration:underline;">Rejoignez-nous</a></p>
+  </div>  <section class="section" id="presentation">
+    <h2>Qui sommes-nous ?</h2>
+    <p>La FIM regroupe les professionnels de l'informatique à Montgallet : boutiques, réparateurs, techniciens, assembleurs PC. Ensemble, nous mutualisons nos forces pour offrir un meilleur service, défendre nos intérêts et revitaliser notre quartier.</p>
+  </section>  <section class="section" id="services">
+    <h2>Nos Services</h2>
+    <div class="services">
+      <div class="card">Réparation & Vente informatique</div>
+      <div class="card">Assemblage de PC sur mesure</div>
+      <div class="card">Recyclage & Seconde vie numérique</div>
+      <div class="card">Conseils & Assistance technique</div>
+      <div class="card">Ateliers & événements tech</div>
+    </div>
+  </section>  <section class="section" id="membres">
+    <h2>Nos Membres</h2>
+    <div class="membres">
+      <div class="card">Boutique A</div>
+      <div class="card">Technicien B</div>
+      <div class="card">Atelier C</div>
+      <!-- Ajouter d'autres membres -->
+    </div>
+  </section>  <section class="section" id="adhesion">
+    <h2>Rejoignez la FIM</h2>
+    <p>Professionnel de l'informatique à Montgallet ? Rejoignez-nous pour mutualiser vos ressources et dynamiser le quartier.</p>
+    <p><a href="#contact" style="text-decoration:underline;">Contactez-nous pour adhérer</a></p>
+  </section>  <section class="section" id="contact">
+    <h2>Contact</h2>
+    <form>
+      <input type="text" placeholder="Nom / Entreprise">
+      <input type="email" placeholder="Email">
+      <input type="text" placeholder="Téléphone">
+      <textarea placeholder="Message"></textarea>
+      <input type="submit" value="Envoyer">
+    </form>
+  </section>  <footer>
+    Fédération Informatique Montgallet – Paris 12e – 2025<br>
+    Mentions légales – Statuts – Contact
+  </footer>
+</body>
+</html>
